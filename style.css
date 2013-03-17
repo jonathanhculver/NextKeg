@@ -1,0 +1,202 @@
+#container {
+    width: 768px;
+    height: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    background: url('images/background.png') no-repeat center;
+    padding-left: 20px;
+}
+
+body {
+    background-color: #2A2622;
+    font-family: "helvetica, sans-serif";
+    font-stretch: condensed;
+    color: #630000;
+}
+
+#titleContainer {
+    float: left;
+    width: 100%;
+    height: 125px;
+}
+
+.beerContainer {
+    float: left;
+    height: 849px;
+    width: 123px;
+}
+
+.beerCol {
+    height: 849px;
+    width: 123px;
+    background: url('images/empty.png') no-repeat;
+    position: absolute;
+}
+
+.beerColFull {
+    position: absolute;
+    background: url('images/full.png') no-repeat;
+    width: 123px;
+    height: 849px;
+    margin-top: -4px;
+    background-position: 0 40px;
+}
+
+#beerColFull2 {
+    background-position: 0 80px;
+}
+
+.beerHead {
+    position: absolute;
+    background: url('images/head.png') no-repeat;
+    width: 115px;
+    height: 92px;
+    margin-left: 5px;
+    margin-top: 35px;
+}
+
+#beerhead2 {
+    margin-top: 75px;
+}
+
+.metricsCol {
+    float: left;
+    width: 239px;
+    height: 849px;
+    padding-left: 18px;
+}
+
+.logo {
+    float: left;
+    width: 222px;
+    height: 222px;
+    background: url('images/glass_pane.png') no-repeat center;
+    position: absolute;
+}
+
+.logoContainer {
+    float: left;
+    width: 222px;
+    height: 222px;
+    margin-bottom: 15px;
+}
+
+#logoFull1 {
+    background: url('images/logo/shock.png') no-repeat;
+}
+
+#logoFull2 {
+    background: url('images/logo/sixpoint.png') no-repeat;
+}
+
+.logoFull {
+    float: left;
+    position: absolute;
+    width: 222px;
+    height: 222px;
+    
+}
+
+.metricsContainer {
+    width: 100%;
+    float: left;
+    height: auto;
+    text-transform: uppercase;
+}
+
+.dataRow {
+    float: left;
+    height: 165px;
+    width: 100%;
+    opacity: .6;
+}
+
+.dataTitle {
+    float: left;
+    width: 100%;
+    min-height: 20px;
+    font-size: 24px;
+}
+
+.dataNum {
+    float: left;
+    width: 100%;
+    min-height: 50px;
+    padding-left: 10px;
+    font-size: 115px;
+    font-style: italic;
+}
+
+.psiLabel {
+    font-size: 33px;
+    height: 20px;
+}
+
+.wowButtonContainer {
+    height: 40px;
+    width: 100%;
+    float: left;
+}
+
+.wowButton {
+    float: left;
+    opacity: 1;
+    width: 75%;
+    height: 40px;
+    background: url('images/wowit.png') no-repeat;
+    cursor: pointer;
+    background-position: 0px;
+}
+
+.wowCount {
+    float: left;
+    width: 13%;
+    font-size: 47px;
+    padding-left: 5px;
+    color: black;
+    opacity: .5;
+    text-align: center;
+}
+
+#wowPopBack {
+    width: 100%;
+    height: 1040px;
+    background-color: black;
+    opacity: .5;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#wowPop {
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    height: 300px;
+    border: 1px solid black;
+    position: relative;
+    top: 300px;
+    opacity: 1 !important;
+    background-color: #C9C5C5;
+    z-index: 10;
+}
+
+#popMesage {
+    float: left;
+    height: 10px;
+    width: 300px;
+}
+
+#footer {
+    position: relative;
+    top: 15px;
+    height: 20px;
+    width: 220px;
+    float: right;
+    margin-right: 10px;
+}
+
+#footer a {
+    text-decoration: none;
+    color: black;
+}

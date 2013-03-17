@@ -1,0 +1,22 @@
+[
+    {
+        "beerName": "Shock Top",
+        "beerLogo": "images/logo/shock.png",
+        "percentFull": 95,
+        "temperature": 36,
+        "pressure": 10,
+        "lastPour": 1344099553
+        
+    },
+        
+    {
+        "beerName": "Shock Top",
+        "beerLogo": "images/logo/shock.png",
+        "percentFull": 90,
+        "temperature": 34,
+        "pressure": 10,
+        "lastPour": 1344099552
+    }
+    
+    
+]

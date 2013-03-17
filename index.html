@@ -1,0 +1,83 @@
+<html>
+    <head>
+        <title>Next Keg</title>
+        <link rel="stylesheet" href="style.css" />
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.21/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="javascript.js"></script>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <link rel='icon' type="image/png" href='images/mock.png' />
+        <meta name="description" content="Next Keg" />
+    </head>
+    <body>
+        <div id="container">
+            <div id="titleContainer"></div>
+            <div class="beerContainer">
+                <div id="beerColFull1" class="beerColFull"></div>
+                <div id="beerHead1" class="beerHead"></div>
+                <div id="beerCol1" class="beerCol"></div>
+            </div>
+            <div id="metricsCol1" class="metricsCol">
+                <div class="logoContainer">
+                    <div id="logoFull1" class="logoFull"></div>
+                    <div id="logo1" class="logo"></div>
+                </div>
+                <div class="metricsContainer">
+                    <div class="dataRow">
+                        <div class="dataTitle">Volume</div>
+                        <div id="vol1" class="dataNum"><span id="vol1Num">95</span>%</div>
+                    </div>
+                    <div class="dataRow">
+                        <div class="dataTitle">Temperature</div>
+                        <div class="dataNum">36 &#176;</div>
+                    </div>
+                    <div class="dataRow">
+                        <div class="dataTitle">Pressure</div>
+                        <div class="dataNum">36 <span class="psiLabel">PSI</span></div>
+                    </div>
+                    <div class="wowButtonContainer">
+                        <div class="wowButton" onclick="updateWowCount('wowCount1')"></div>
+                        <div class="wowCount" id="wowCount1">3</div>
+                    </div>
+                </div>
+            </div>
+            <div class="beerContainer">
+                <div id="beerColFull2" class="beerColFull"></div>
+                <div id="beerHead2" class="beerHead"></div>
+                <div id="beerCol1" class="beerCol"></div>
+            </div>
+            <div id="metricsCol2" class="metricsCol">
+                <div class="logoContainer">
+                    <div id="logoFull2" class="logoFull"></div>  
+                    <div id="logo2" class="logo"></div>
+                </div>
+                <div class="metricsContainer">
+                    <div class="dataRow">
+                        <div class="dataTitle">Volume</div>
+                        <div id="vol2" class="dataNum">90%</div>
+                    </div>
+                    <div class="dataRow">
+                        <div class="dataTitle">Temperature</div>
+                        <div class="dataNum">34 &#176;</div>
+                    </div>
+                    <div class="dataRow">
+                        <div class="dataTitle">Pressure</div>
+                        <div class="dataNum">38 <span class="psiLabel">PSI</span></div>
+                    </div>
+                    <div class="wowButtonContainer">
+                        <div class="wowButton" onclick="updateWowCount('wowCount2')"></div>
+                        <div id="wowCount2" class="wowCount">5</div>
+                    </div>
+                    
+                </div>    
+                
+            </div>
+            
+
+        
+        <div id="footer"><a href="http://jonculverdev.com">&#169 Jon Culver Development LLC</a></div>
+            
+        </div>
+
+    </body>
+</html>
