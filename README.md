@@ -3,4 +3,6 @@ NextKeg
 
 Kegerator Dashboard built during a hackathon
 
-Demo hosted at http://nextkeg.com
+![keg](http://i.imgur.com/OCd5A51.png)
+
+
